@@ -1,10 +1,19 @@
-
 #include <iostream>
 
 using namespace std;
 
+int sum(int n) {
+  return n + 1;
+}
+
 int main() {
-  cout << "Hello World!" << endl;
+  int n;
+  cout << "Enter a number. ";
+  cin >> n;
+
+  cout << sum(n) << endl;
   
   return 0;
 }
+
+
